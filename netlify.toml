@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build:songs"
+  publish = "."
+
+[dev]
+  command = "npm run start"

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DrakeZeus Music Player</title>
+</head>
+<body>
+
+  <!-- Top Bar: Heading + Search -->
+  <div class="top-bar">
+    <h1 class="title">All Songs</h1>
+    <div class="search-container">
+      <input type="text" placeholder="Search for a song" class="search-box">
+      <button class="search-btn">
+        <img src="search.svg" alt="Search">
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container flex justify-center bg-black">
+    <div class="right bg-grey rounded">
+      
+      <!-- Song List -->
+      <div class="songlist">
+        <ul>
+          <!-- Songs will be added dynamically via JS -->
+        </ul>
+      </div>
+
+      <!-- Playbar -->
+      <div class="playbar">
+        
+        <!-- Song info -->
+        <div class="songinfo"></div>
+
+        <!-- Seekbar -->
+        <div class="seekbar">
+          <div class="circle"></div>
+        </div>
+
+        <!-- Controls Row -->
+        <div class="controls-row">
+          
+          <!-- Left section: current-time only -->
+          <div class="left">
+            <span class="current-time">00:00</span>
+          </div>
+
+          <!-- Center section: main buttons -->
+          <div class="center">
+            <div class="songbuttons">
+              <img id="previous" src="previous.svg" alt="Previous">
+              <img id="play" src="play.svg" alt="Play">
+              <img id="next" src="next.svg" alt="Next">
+            </div>
+          </div>
+
+          <!-- Right section: shuffle + total-time -->
+          <div class="right-controls">
+            <img id="shuffle" src="shuffle.svg" alt="Shuffle">
+            <span class="total-time">00:00</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

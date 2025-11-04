@@ -1,0 +1,26 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "A dynamic, front-end web application replicating core Spotify features using HTML5, CSS3, and JavaScript. It showcases seamless audio playback, interactive playlists, and real-time UI updates powered by JavaScript event handling and DOM manipulation — all wrapped in a modern, responsive design inspired by Spotify’s intuitive user experience.",
+  "main": "generate-info.js",
+  "type": "commonjs",
+  "scripts": {
+    "build:songs": "node generate-info.js",
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soumitramaji/Spotify-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soumitramaji/Spotify-Clone/issues"
+  },
+  "homepage": "https://github.com/Soumitramaji/Spotify-Clone#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
